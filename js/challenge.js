@@ -31,10 +31,10 @@ function funIncrement(){
 let compare=0
   let start=1
          const UlItems=document.getElementsByClassName('likes')[0]
-  let items=document.createElement('li')
+  
 
 function funLikes(){
-  
+  let items=document.createElement('li')
 
   items.innerText=countTag.innerText + start++;
   compare=items.compare
