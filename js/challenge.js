@@ -35,12 +35,16 @@ let compare=0
   let count;
 
 function funLikes(){
-  if ()
+  if (countTag==count)
+  {
   let items=document.createElement('li')
 
   items.innerText=countTag.innerText + start++;
   compare=items.compare
-  UlItems.appendChild(items)
+  UlItems.appendChild(items)}
+  else{
+    
+  }
 
 }
 function funPause(){
