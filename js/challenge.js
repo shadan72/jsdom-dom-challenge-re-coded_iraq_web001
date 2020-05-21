@@ -28,18 +28,19 @@ function funIncrement(){
  countTag.innerText=i;
       i=i+1; 
 }
-let compare=0
+let compare;
   let start=1
          const UlItems=document.getElementsByClassName('likes')[0]
   
   let count;
 
 function funLikes(){
-  if (countTag==count)
+  if (countTag==compare)
   {
+    start++;
   let items=document.createElement('li')
 
-  items.innerText=countTag.innerText + start++;
+  items.innerText=countTag.innerText + start;
   compare=items.compare
   UlItems.appendChild(items)}
   else{
