@@ -32,8 +32,10 @@ let compare=0
   let start=1
          const UlItems=document.getElementsByClassName('likes')[0]
   
+  let count;
 
 function funLikes(){
+  if ()
   let items=document.createElement('li')
 
   items.innerText=countTag.innerText + start++;
