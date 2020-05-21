@@ -38,13 +38,13 @@ function funLikes(){
   if (countTag==compare)
   {
     start++;
-  let items=document.createElement('li')
 
   items.innerText=countTag.innerText + start;
   compare=items.compare
   UlItems.appendChild(items)}
   else{
-    
+      let items=document.createElement('li')
+
     
   }
 
